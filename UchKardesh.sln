@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UchKardesh.Web", "src\UchKardesh.Web\UchKardesh.Web.csproj", "{3228BA33-25C5-466B-AE51-032533213A6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UchKardesh.DAL", "src\UchKardesh.DAL\UchKardesh.DAL.csproj", "{B11726D0-E6A9-4C27-9F5A-CB93855C0761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D81AD162-3B68-40C2-9181-CFDB2A924609}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3228BA33-25C5-466B-AE51-032533213A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3228BA33-25C5-466B-AE51-032533213A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3228BA33-25C5-466B-AE51-032533213A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3228BA33-25C5-466B-AE51-032533213A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11726D0-E6A9-4C27-9F5A-CB93855C0761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11726D0-E6A9-4C27-9F5A-CB93855C0761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11726D0-E6A9-4C27-9F5A-CB93855C0761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11726D0-E6A9-4C27-9F5A-CB93855C0761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3228BA33-25C5-466B-AE51-032533213A6E} = {D81AD162-3B68-40C2-9181-CFDB2A924609}
+		{B11726D0-E6A9-4C27-9F5A-CB93855C0761} = {D81AD162-3B68-40C2-9181-CFDB2A924609}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64328B66-AC36-48A1-8DD9-7E878DACB151}
+	EndGlobalSection
+EndGlobal
