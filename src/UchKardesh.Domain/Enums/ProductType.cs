@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace UchKardesh.Domain.Enums;
 
-namespace UchKardesh.Domain.Enums
+public enum ProductType
 {
-    internal class ProductType
-    {
-    }
+    pcs = 1,
+    kilo,
+    tonna,
+    litr
 }

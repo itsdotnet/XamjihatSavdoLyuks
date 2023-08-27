@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UchKardesh.Domain.Commons;
 
-namespace UchKardesh.Domain.Entities
+namespace UchKardesh.Domain.Entities;
+
+public class Category : Auditable
 {
-    internal class Category
-    {
-    }
+    public string Title { get; set; }
+    public string Description { get; set; }
 }
