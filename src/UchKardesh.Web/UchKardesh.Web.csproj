@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UchKardesh.DAL\UchKardesh.DAL.csproj" />
+    <ProjectReference Include="..\UchKardesh.Domain\UchKardesh.Domain.csproj" />
+    <ProjectReference Include="..\UchKardesh.Service\UchKardesh.Service.csproj" />
+  </ItemGroup>
+
 </Project>
