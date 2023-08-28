@@ -1,5 +1,4 @@
-﻿using Recore.Service.DTOs.Users;
-using UchKardesh.Domain.Enums;
+﻿using UchKardesh.Domain.Enums;
 using UchKardesh.Service.DTOs.Products;
 
 namespace UchKardesh.Service.DTOs.Sessions;
