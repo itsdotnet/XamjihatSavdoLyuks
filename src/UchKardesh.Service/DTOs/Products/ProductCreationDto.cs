@@ -1,6 +1,6 @@
 ﻿using UchKardesh.Domain.Enums;
 
-namespace Recore.Service.DTOs.Products;
+namespace UchKardesh.Service.DTOs.Products;
 
 public class ProductCreationDto
 {

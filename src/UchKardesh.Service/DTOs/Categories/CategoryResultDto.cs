@@ -1,6 +1,6 @@
 ﻿using UchKardesh.Service.DTOs.Products;
 
-namespace UchKardesh.Service.DTOs.ProductCategories;
+namespace UchKardesh.Service.DTOs.Categories;
 
 public class CategoryResultDto
 {
