@@ -6,4 +6,5 @@ public class Category : Auditable
 {
     public string Title { get; set; }
     public string Description { get; set; }
+    public ICollection<Product> Products { get; set; }  
 }
