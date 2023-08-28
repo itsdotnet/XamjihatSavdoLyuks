@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UchKardesh.DAL\UchKardesh.DAL.csproj" />
+    <ProjectReference Include="..\UchKardesh.Domain\UchKardesh.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
