@@ -17,4 +17,8 @@
     <ProjectReference Include="..\UchKardesh.Domain\UchKardesh.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>
