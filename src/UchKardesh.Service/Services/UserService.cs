@@ -6,7 +6,7 @@ using UchKardesh.Service.Exceptions;
 using UchKardesh.Service.Helpers;
 using UchKardesh.Service.Interfaces;
 
-namespace UchKardesh.Service;
+namespace UchKardesh.Service.Services;
 #pragma warning disable CS1998
 
 public class UserService : IUserService
@@ -33,7 +33,7 @@ public class UserService : IUserService
     public async Task<UserResultDto> CreateAsync(UserCreationDto dto)
     {
         var newUser = _mapper.Map<User>(dto);
-        newUser.Password = PasswordHash.Hash(newUser.Password);
+        newUser.Password = newUser.Password.Hash();
         await _unitOfWork.UserRepository.AddAsync(newUser);
         await _unitOfWork.SaveAsync();
 
